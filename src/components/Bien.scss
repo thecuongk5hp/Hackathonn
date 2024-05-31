@@ -1,0 +1,30 @@
+.bien {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto; 
+    .bien-inner {
+      display: flex;
+      width: 1000px; 
+      height: 400px; 
+    }
+    .bien-item {
+      margin-top: 30px;
+      transition: transform 0.6s ease;
+      height: 400px; 
+    }
+    .bien-item img {
+      width: 1000px; 
+      height: 400px; 
+    }
+    .bien-control-prev-icon,
+    .bien-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+    }
+    .bien-indicators button {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .bien-indicators .active {
+      background-color: #000;
+    }
+  }
